@@ -30,7 +30,7 @@ $(window).scroll(function() {
 
 $(window).scroll(function() {
     var y_scroll_pos = window.pageYOffset;
-    var scroll_pos_test = 1800;
+    var scroll_pos_test = 2200;
 
     if(y_scroll_pos > scroll_pos_test) {
       $('.article-02-remaining').hide('slow');
@@ -39,7 +39,7 @@ $(window).scroll(function() {
 
 $(window).scroll(function() {
     var y_scroll_pos = window.pageYOffset;
-    var scroll_pos_test = 1100;
+    var scroll_pos_test = 1400;
 
     if(y_scroll_pos > scroll_pos_test) {
       $('.about-relaxr-01-remaining').hide('slow');
